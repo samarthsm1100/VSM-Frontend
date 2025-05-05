@@ -39,8 +39,8 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-6 py-3 bg-opacity-10 backdrop-blur-lg rounded-full border border-gray-600 shadow-lg relative">
 
         {/* Brand Name */}
-        <Link to="/" className="text-lg font-semibold text-white tracking-wide">
-          MyPortfolio
+        <Link to="/" className="text-lg font-bold mx-auto text-white tracking-wide">
+          V. S. Mali
         </Link>
 
         {/* Desktop Menu */}
