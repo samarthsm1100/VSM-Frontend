@@ -1,10 +1,7 @@
 import axios from "axios";
-import process from "process";
-
-const API_URL = process.env.API || "http://localhost:5000"; 
 
 const axiosInstance = axios.create({
-  baseURL: API_URL, 
+  baseURL: 'https://vsm-backend-fsps.onrender.com', 
   withCredentials: true,
 });
 

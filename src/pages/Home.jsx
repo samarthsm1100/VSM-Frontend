@@ -19,7 +19,7 @@ const Home = () => {
         transition={{ duration: 1 }}
         className="text-center mx-4"
       >
-        <img src="/icon.png" alt="Vaishali Mali" className="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg" />
+        <img src="/icon.png" alt="Vaishali Mali" className="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg z-10" />
         <p className="text-sm uppercase tracking-wide text-gray-400">Dedicated Science Teacher</p>
         <h1 className="text-4xl md:text-5xl font-bold mt-4">
           Inspiring Students Through <br />
